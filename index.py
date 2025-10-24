@@ -25,5 +25,7 @@ def home():
         item = random.choice(items)
         return f"You lotted a {container} and found a {item}!"
 
+    return "No loot found."
+
 if __name__ == "__main__":
     app.run()
